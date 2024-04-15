@@ -1,0 +1,35 @@
+
+.answer {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.cicle {
+    min-width: 20px;
+    min-height: 20px;
+    border-radius: 50%;
+    background-color: var(--cBgWhite);
+}
+
+.selectedCircle {
+    background-color: var(--cBgDarkRed);
+    border: 2px solid var(--cBorderWhite);
+    box-sizing: border-box;
+}
+
+.answerText {
+    flex-wrap: wrap;
+
+    border: 2px solid var(--cBorderWhite);
+    padding: 8px;
+    border-radius: 6px;
+
+    user-select: none;
+}
+
+
+.selectedText {
+    border: 2px solid var(--cBorderDarkRed);
+}

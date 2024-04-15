@@ -1,0 +1,22 @@
+.submitButton {
+    margin-top: 16px;
+    background-color: var(--cBgDarkRed);
+    color: var(--cTextWhite);
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.buttonsWrapper {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+.disabledButton {
+    opacity: 0.5;
+    cursor: auto;
+    pointer-events: none;
+}

@@ -1,0 +1,18 @@
+.wrapper {
+    margin-top: 16px;
+    text-align: center;
+    padding: 24px 0;
+    font-size: 32px;
+    letter-spacing: 0.6px;
+}
+
+.againButton {
+    margin-top: 32px;
+    background-color: var(--cBgDarkRed);
+    color: var(--cTextWhite);
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    user-select: none;  
+}

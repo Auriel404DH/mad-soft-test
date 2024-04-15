@@ -1,0 +1,11 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .title {
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 0.5px;
+  }
